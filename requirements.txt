@@ -1,2 +1,1 @@
-nose
-sphinx
+yfinance==0.1.54
