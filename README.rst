@@ -1,9 +1,11 @@
 Python Tutorials 仓库
-===========================
+=====================
 
 This simple project is an example repo for Python projects.
 
-`Learn more <http://www.kennethreitz.org/essays/repository-structure-and-python>`_.
+`查看更多 <https://github.com/ossez-com/python-tutorials>`_
+
+`官方结构的说明 <http://www.kennethreitz.org/essays/repository-structure-and-python>`_
 
 ---------------
 
