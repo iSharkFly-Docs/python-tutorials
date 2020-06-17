@@ -1,5 +1,5 @@
-Python Tutorials Repository
-========================
+Python Tutorials 仓库
+===========================
 
 This simple project is an example repo for Python projects.
 
