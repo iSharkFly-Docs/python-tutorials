@@ -69,3 +69,7 @@ Jetbrains 有很多开发工具，其中最核心的就是 IntellIJ IDEA。
 在下面的链接中，我们针对一些常见的问题进行了总结，通常这些可能都是初学者容易遇到的问题。
 * [IntelliJ 安装 Python 插件](https://www.ossez.com/t/intellij-python/114)
 * [IntelliJ 配置 Python 项目提示 no python interpreter](https://www.ossez.com/t/intellij-python-no-python-interpreter/125)
+
+
+## Visual Studio Code
+Visual Studio Code 是一个免费的
