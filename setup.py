@@ -16,8 +16,8 @@ setup(
     version='0.1.0',
     description='Sample Package Python Tutorials',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
+    author='YuCheng Hu',
+    author_email='yucheng.hu@ossez.com',
     url='https://github.com/kennethreitz/samplemod',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
