@@ -23,9 +23,11 @@
 
 ### 进行安装
 双击运行安装文件
+
 ![python-windows-install-02 (1)|666x410](https://cdn.ossez.com/discourse-uploads/original/1X/73fa20718b774a2e7fc6803ed4b3d30e19d3080e.jpeg)
 
 选择默认安装路径就可以了。
+
 ![python-windows-install-03|666x410](https://cdn.ossez.com/discourse-uploads/original/1X/915ed31bc2afddae08bb8f00f413cd1840e4539b.jpeg)
 
 你需要等待一些时间让安装完成。
