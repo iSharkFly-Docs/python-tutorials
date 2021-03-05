@@ -27,7 +27,7 @@ IDLE 运行界面与使用控制台的运行界面是相同的，只是 IDLE 的
 ## IntelliJ IDEA 和 PyCharm
 Jetbrains 有很多开发工具，其中最核心的就是 IntellIJ IDEA。
 
-## IntellIJ IDEA 和 PyCharm 的关系
+### IntellIJ IDEA 和 PyCharm 的关系
 
 如果你计算机中已经安装了 IntellIJ IDEA Ultimate 版本的话，你可以在 IntellIJ IDEA 中通过安装插件的方式扩展 Python，然后就能达到和 PyCharm 一样的功能了。
 
@@ -69,3 +69,7 @@ Jetbrains 有很多开发工具，其中最核心的就是 IntellIJ IDEA。
 在下面的链接中，我们针对一些常见的问题进行了总结，通常这些可能都是初学者容易遇到的问题。
 * [IntelliJ 安装 Python 插件](https://www.ossez.com/t/intellij-python/114)
 * [IntelliJ 配置 Python 项目提示 no python interpreter](https://www.ossez.com/t/intellij-python-no-python-interpreter/125)
+
+
+## Visual Studio Code
+Visual Studio Code 是一个免费的
