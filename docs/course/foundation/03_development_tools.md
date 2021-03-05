@@ -27,7 +27,7 @@ IDLE 运行界面与使用控制台的运行界面是相同的，只是 IDLE 的
 ## IntelliJ IDEA 和 PyCharm
 Jetbrains 有很多开发工具，其中最核心的就是 IntellIJ IDEA。
 
-## IntellIJ IDEA 和 PyCharm 的关系
+### IntellIJ IDEA 和 PyCharm 的关系
 
 如果你计算机中已经安装了 IntellIJ IDEA Ultimate 版本的话，你可以在 IntellIJ IDEA 中通过安装插件的方式扩展 Python，然后就能达到和 PyCharm 一样的功能了。
 
