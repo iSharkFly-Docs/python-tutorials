@@ -72,4 +72,51 @@ Jetbrains 有很多开发工具，其中最核心的就是 IntellIJ IDEA。
 
 
 ## Visual Studio Code
-Visual Studio Code 是一个免费的
+Visual Studio Code 是一个免费的开发工具，比较轻量，很多人都会用。
+
+如果你还没有安装 Python 扩展的话，在第一次使用 Visual Studio Code 导入 Python 项目，将会提示你安装 Python 扩展。
+
+### 安装扩展
+在 VSC 的右下角，将会提示你安装 Python 扩展。
+
+单击 install 进行安装即可。
+
+![vsc-python-01|690x377](https://cdn.ossez.com/discourse-uploads/original/2X/a/ae9ade24a133d339042e51a2b25712a31f1c3973.png)
+
+下面的图显示扩展正在进行安装。
+
+![vsc-python-023|690x377](https://cdn.ossez.com/discourse-uploads/optimized/2X/5/5d7644fea17c57c8a7a445f08b7cef5e50fa0db3_2_690x377.png)
+
+如果还需要其他一些扩展需要进行安装的话，按照提示进行安装即可。
+
+有可能能够在控制台中看到扩展正在安装的过程。
+
+![vsc-python-03|690x377](https://cdn.ossez.com/discourse-uploads/original/2X/5/5d737321243566f333b5e86f0c8b99c42759d99c.png)
+
+当刷新所有的项目和配置后，可以单击界面上面的小箭头来运行。
+
+![vsc-python-04|690x458](https://cdn.ossez.com/discourse-uploads/optimized/2X/7/79e1b9669d7ec1ed154b6635e83d98b2947d3db4_2_690x458.png)
+
+非常不建议在学习 Python 或者 Java 的时候按照书本上的内容使用记事本来进行开发书写代码，因为这种方式没有任何意义。
+
+同时，学会使用配置 IDE，熟练使用 IDE 中的各种快捷键对以后的开发来说也是一个基本技能。
+
+因为 Visual Studio Code 是免费使用，并且能够很好的结合 Git，因此推荐初学者安装一个进行学习。
+
+如果条件允许，或者经济状况不错的话，IntellIJ IDEA 也是非常好的选择。
+
+## 其他工具
+Python 的开发工具不限于上面提到的那几个。
+
+我们在下面列出了一些可能会用到，也可能会听到过的开发工具，如果你还有什么需要补充的也请 Fork 项目后修改。
+
+因为下面的开发工具可能不是非常主流，功能也达不到上面的提到的几个那么强大，但是针对不同的操作系统平台，进行一些尝试也未尝不是好事。
+
+- [IPython](https://ipython.org/) - IPython是一种基于Python的交互式解释器，提供了强大的编辑和交互功能。
+- [Eclipse + PyDev](www.pydev.org) - 在 Eclipse 中添加插件，让 Eclipse 能够支持 Python。
+- [Sublime Text](http://www.sublimetext.com) - 代码编辑器，这个编辑器比较小巧，有比较完善的社区，但这个编辑器不是免费的。
+- [Atom](https://atom.io/) - 能够全平台支持运行，插件安装快速。但 Atom 的插件安装比较繁琐，同时针对 Python 的 debug 功能不是非常好。
+- [GNU Emacs](https://www.gnu.org/software/emacs/) - 文本编辑器，多在 Unix/linux 平台上使用。
+- [Vi / Vim](https://www.vim.org/) - 文本编辑器，多在 Unix/linux 平台上使用。
+- [Spyder](https://github.com/spyder-ide/spyder) - 开源的 Python IDE。
+- [Thonny](http://thonny.org/) - 多针对初学者使用的 IDE。塔尔图大学 (University of Tartu)  针对 python 初学者开发的一个款小 IDE，貌似可以在 Raspberry Pi 上安装，能够帮助初学者快速了解下语言。
