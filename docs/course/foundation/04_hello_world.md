@@ -152,7 +152,7 @@ python tests/HelloWorld.py
 
 如果你启用的是 IDE 的命令行工具来执行 Python 代码的话，通常 IDE 的命令行工具都会自动配置字符集，因此你可以看到在 IDE 工具的命令行工具中执行的 Python 代码是没有编码字符集的问题的。
 
-![vsc-t-02|690x458]https://cdn.ossez.com/discourse-uploads/optimized/2X/b/bfc09975c7fd34f29dec9f867a79003fe08c5e61_2_690x458.png)
+![vsc-t-02|690x458](https://cdn.ossez.com/discourse-uploads/optimized/2X/b/bfc09975c7fd34f29dec9f867a79003fe08c5e61_2_690x458.png)
 
 因此，我们强烈推荐使用 IDE 的命令行工具来执行一些命令，如果你真的需要在命令中进行执行的话。
 
