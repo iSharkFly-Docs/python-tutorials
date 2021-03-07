@@ -7,6 +7,7 @@
     - [环境配置](docs/course/foundation/02_environment.md)
     - [开发工具](docs/course/foundation/03_development_tools.md)
     - [第一个 Hello World 程序](docs/course/foundation/04_hello_world.md)
+    - [语言基础](docs/course/foundation/05_language_fundamentals.md)   
 
 - 其他小工具
     - [JWT](jwt/README.md)
