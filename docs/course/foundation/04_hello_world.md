@@ -64,7 +64,7 @@ print('hello, world!')
 
 ![IDEA|690x452](https://cdn.ossez.com/discourse-uploads/original/2X/a/a80f68e8267f76fa8c5470b3d83435965b33b865.png)
 
-根据我们当前的项目，我们知道我们的 HelloWorld.py 文件在路径 tests/HelloWorld.py 下面
+根据我们当前的项目，我们知道我们的 HelloWorld.py 文件在路径 tests/HelloWorld.py 下面。
 
 如果我们希望在终端中测试运行 HelloWorld.py 的话。
 
@@ -100,4 +100,31 @@ print('hello, world!')
 
 其效果与在命令行中执行是一样的。
 
+### CMD 和 PS
+在 Windows 中可以使用 CMD 和 PS 来运行一个 Python 程序。
 
+假设我们需要运行的 HelloWorld.py 位于路径： C:\WorkDir\GitHub\cwiki-us-docs\python-tutorials\tests\HelloWorld.py 下面。
+
+在我们启动命令控制台的时候，我们会看到路径为当前用户的路径。
+
+所以我们需要使用绝对路径进行运行，或者你也可以进入目录后使用相对路径来运行。
+
+在这里需要注意的是，如果你的操作系统字符集没有设置UTF-8 的话，你可能会遇到中文乱码的问题。
+
+如下面 2 个图中的显示内容。
+
+CMD 运行 Python 时候的中文乱码。
+
+![cmd-ps-01|690x360](https://cdn.ossez.com/discourse-uploads/original/2X/8/843be05466418ed9a2016b230e9a36822828c980.png)
+
+PS 运行 Python 时候的中文乱码。
+
+![cmd-ps-02|586x500](https://cdn.ossez.com/discourse-uploads/original/2X/4/4befd9ff7154c50da85f033bece892826b5ad772.png)
+
+这是因为我的操作系统是英文的操作系统，默认是不会安装 UTF-8 的，你需要在你的 Windows 下的区域和语言中进行设置。
+
+将不能识别的代码设置为 UTF-8 后才不会出现乱码错误。
+
+使用这个方式运行 Python 是不推荐的，通常我们只会使用这 2 个工具针对 Python 语言环境来进行校验。
+
+以确定校验安装是否完成，路径是否准确。
