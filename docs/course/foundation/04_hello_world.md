@@ -7,7 +7,7 @@
 
 因为针对计算机的开发多会使用 IDE，因此我们会首先尽量使用 IDE 来输出内容，然后再会捎带一下在控制台上如何输出。
 
-### print 函数
+## print 函数
 在 Python 中使用的是 print 函数来在计算机上输出你想要输出的东西。
 
 你可以在 print 函数中指定不同的参数来达到不同的目的。
@@ -18,12 +18,12 @@
 print('hello, world!')
 ```
 
-### Git 代码仓库
+## Git 代码仓库
 完整的代码，请参考 https://github.com/cwiki-us-docs/python-tutorials/blob/master/tests/HelloWorld.py 页面中的内容，你也可以将上面的项目下载到你的计算机上直接运行。
 
 有关本文档的所有代码也都提交到上面的仓库中了。
 
-### IDE 运行
+## IDE 运行
 当你下载 HelloWorld.py 文件到你的本地计算机中，并且已经将我们这个项目导入到 IDE 后，你可以直接在 IDE 上运行 HelloWorld.py 这个文件。
 
 当你运行完成后，你应该可以在你的控制台上看到 HelloWorld.py 运行后的输出。
@@ -38,7 +38,7 @@ print('hello, world!')
 
 ![IDE-python-hello-world-01|690x406](https://cdn.ossez.com/discourse-uploads/optimized/2X/3/3934138669943464c54c2c551789f8158f20cb27_2_690x406.png)
 
-#### IDE 使用的一个小技巧
+### IDE 使用的一个小技巧
 打开 HelloWorld.py 文件，我们可以看到在这个文件里面有多个 print 函数。
 
 可能你对这个函数不是非常了解。
@@ -52,5 +52,52 @@ print('hello, world!')
 这就是我们常说的使用 IDE 的好处，能够快速帮你搜索一些文档，你就不需要导出到网站上去搜索参考了。
 
 
-### 命令行运行
+## 命令行运行
+当然我们也可以在命令中运行我们的 Python 代码。
+
+在这个命令行运行中，我们分为在 IDE 的命令行中运行和普通的命令行工具中运行，如果你使用的是 Mac 系统的话，你可以使用你的终端工具。如果你使用的是 Windows 系统的话，那么就需要使用 CMD 或者 PS 了。
+
+### IDEA 命令行运行
+在 IntelliJ IDEA 中你是可以启用终端的。
+
+启用终端的快捷键为 Alt + F12，或者你也可以使用你的鼠标来选择终端。当终端被选定后， IDEA 将会默认把路径设置到当前项目的根目录下面。
+
+![IDEA|690x452](https://cdn.ossez.com/discourse-uploads/original/2X/a/a80f68e8267f76fa8c5470b3d83435965b33b865.png)
+
+根据我们当前的项目，我们知道我们的 HelloWorld.py 文件在路径 tests/HelloWorld.py 下面
+
+如果我们希望在终端中测试运行 HelloWorld.py 的话。
+
+你可以在终端工具中输入命令来进行执行。
+
+```
+python tests/HelloWorld.py
+```
+
+如果系统没有提示路径错误的话，那么你将会看到在你的终端中输出程序运行的结果。
+
+当然，你也可以输入 py + 程序的路径来运行，效果和输入 python 是相同的。
+
+```
+py tests/HelloWorld.py
+```
+
+![IDEA-terminal-02|690x282](https://cdn.ossez.com/discourse-uploads/original/2X/0/04125f4045f7881dac3fe77b3cafc3ddcb58acff.png)
+
+甚至，你还可以直接输入 py，这个时候将会启动进入 Python 的解释环境中。
+
+然后你输入代码
+
+```python
+print('hello, world!')
+```
+
+你可以看到在你的终端工具中，python 解释器帮你解释了代码并且运行后输出了结果。
+
+![IDEA-terminal-03|690x177](https://cdn.ossez.com/discourse-uploads/optimized/2X/e/e20395ba2725d17b72b2e241cf09fdb9b508e170_2_690x177.png)
+
+简单来说，在 IDEA 的终端工具中，你可以认为 IDEA 帮你启动了一个 CMD 命令行工具，然后你可以在这个命令行工具中执行任何你想要的操作。
+
+其效果与在命令行中执行是一样的。
+
 
