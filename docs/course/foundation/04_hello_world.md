@@ -128,3 +128,34 @@ PS 运行 Python 时候的中文乱码。
 使用这个方式运行 Python 是不推荐的，通常我们只会使用这 2 个工具针对 Python 语言环境来进行校验。
 
 以确定校验安装是否完成，路径是否准确。
+
+### Visual Studio Code 命令行运行
+与 IntelliJ IDEA 一样，你也可以启动 Visual Studio Code 的命令行工具，然后从 Visual Studio Code 的命令行工具来直接运行 Python 的代码。
+
+当终端被选定后， IDEA 将会默认把路径设置到当前项目的根目录下面。
+
+![vsc-t-01|690x458](https://cdn.ossez.com/discourse-uploads/original/2X/8/8a1e67a50717ee5e5839d5dc9fb8545c610aa4dc.png)
+
+需要注意的是 Visual Studio Code 启用的命令行工具默认的是 PS (PowerShell)。
+
+根据我们当前的项目，我们知道我们的 HelloWorld.py 文件在路径 tests/HelloWorld.py 下面。
+
+如果我们希望在终端中测试运行 HelloWorld.py 的话。
+
+你可以在终端工具中输入命令来进行执行。
+
+```
+python tests/HelloWorld.py
+```
+
+通过这个命令，你就可以看到你的代码在 PowerShell 中执行的效果。
+
+如果你启用的是 IDE 的命令行工具来执行 Python 代码的话，通常 IDE 的命令行工具都会自动配置字符集，因此你可以看到在 IDE 工具的命令行工具中执行的 Python 代码是没有编码字符集的问题的。
+
+![vsc-t-02|690x458]https://cdn.ossez.com/discourse-uploads/optimized/2X/b/bfc09975c7fd34f29dec9f867a79003fe08c5e61_2_690x458.png)
+
+因此，我们强烈推荐使用 IDE 的命令行工具来执行一些命令，如果你真的需要在命令中进行执行的话。
+
+通常一些小的程序，我们都可以通过 IDE 来直接执行的。
+
+不建议和很多初学的教程中说的，不要使用 IDE ，要使用记事本，其实这种要求是完全没有必要也没有任何意义的。
