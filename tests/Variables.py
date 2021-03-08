@@ -24,9 +24,11 @@ print(x)
 print(y)
 
 # 类型转换
-x = str(3)  # x will be '3'
-y = int(3)  # y will be 3
-z = float(3)  # z will be 3.0
+x1 = str(3)  # x will be '3'
+x2 = int(3)  # y will be 3
+x3 = float(3)  # z will be 3.0
+x4 = chr(31243)  # z will be 3.0
+x5 = ord('程')  # z will be 3.0
 
 # 获得类型
 print("==================")
