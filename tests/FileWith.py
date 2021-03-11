@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Python script to Read file from JSON and convert to YAML
 # Author - HoneyMoose (https://www.ossez.com)
 
