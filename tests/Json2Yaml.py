@@ -2,6 +2,7 @@
 # Author - HoneyMoose (https://www.ossez.com)
 
 import json
+
 import ruamel.yaml as yaml
 
 json_filename = 'resources/black_rock_test.json'
@@ -18,6 +19,5 @@ with open(json_filename) as json_file:
 json_file.close()
 
 # Write to YAML
-yaml_file = open(yaml_filename, 'w+')
-yaml.dump(data, yaml_file, allow_unicode=True)
-yaml_file.close()
+with open(yaml_filename, 'w') as yaml_file:
+    yaml.dump(data, yaml_file, allow_unicode=True)

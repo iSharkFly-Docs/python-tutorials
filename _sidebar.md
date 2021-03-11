@@ -9,8 +9,8 @@
     - [第一个 Hello World 程序](docs/course/foundation/04_hello_world.md)
     - [语言基础](docs/course/foundation/05_language_fundamentals.md)   
 
-- 其他小工具
-    - [JWT](jwt/README.md)
+- 附录索引
+    - [Python 用例索引](docs/appendix/01_use_cases.md)
     - [MessagePack](message-pack/index.md)
     - [Protocol Buffers](protocol-buffers/index.md)
 
