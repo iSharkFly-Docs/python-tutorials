@@ -1,10 +1,5 @@
-[
-  {
-    "label_id": 603,
-    "user_name": "YUCHENG-L1"
-  },
-  {
-    "label_id": 604,
-    "user_name": "YUCHENG-L2"
-  }
-]
+{
+  "first_name": "John",
+  "last_name": "Doe",
+  "date_of_birth": "1/1/2021"
+}
