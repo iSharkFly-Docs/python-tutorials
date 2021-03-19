@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 # Python Random String Password
-# Author - https://www.ossez.com
+# Author - HoneyMoose(huyuchengus@gmail.com)
+# Link Article - https://www.ossez.com/c/open-source/python/14
 
 import string
 from random import choice
@@ -19,6 +20,8 @@ def random_password(length, printable):
 
 if __name__ == "__main__":
     3
+    print(__name__)
+
 
 amount = int(input("请输入需要生成随机字符串的数量: "))
 number = int(input("请输入随机字符串的长度： "))
