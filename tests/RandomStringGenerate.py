@@ -18,8 +18,9 @@ def random_password(length, printable):
 
 
 if __name__ == "__main__":
-    print(__name__)
     3
+    print(__name__)
+
 
 amount = int(input("请输入需要生成随机字符串的数量: "))
 number = int(input("请输入随机字符串的长度： "))
