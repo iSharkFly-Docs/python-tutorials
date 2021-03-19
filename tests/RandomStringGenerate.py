@@ -2,7 +2,7 @@
 
 # Python Random String Password
 # Author - HoneyMoose(huyuchengus@gmail.com)
-# Link Article - https://www.ossez.com/c/open-source/python/14
+# Link Article - https://www.ossez.com/t/python/13398
 
 import string
 from random import choice
@@ -22,7 +22,6 @@ if __name__ == "__main__":
     3
     print(__name__)
 
-
 amount = int(input("请输入需要生成随机字符串的数量: "))
 number = int(input("请输入随机字符串的长度： "))
 
@@ -32,3 +31,11 @@ for i in range(1, amount + 1):
 print('')
 for i in range(1, amount + 1):
     print(f"   随机字符串 [Ascii Uppercase String]: {i} - {repr(random_password(number, string.ascii_uppercase))} ")
+
+print('')
+for i in range(1, amount + 1):
+    print(f"   随机字符串 [Ascii Lowercase String]: {i} - {repr(random_password(number, string.ascii_lowercase))} ")
+
+print('')
+for i in range(1, amount + 1):
+    print(f"   随机字符串 [Ascii Digits String]: {i} - {repr(random_password(number, string.digits))} ")
