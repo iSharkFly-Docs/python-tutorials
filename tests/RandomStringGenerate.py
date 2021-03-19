@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 # Python Random String Password
-# Author - https://www.ossez.com
+# Author - HoneyMoose(huyuchengus@gmail.com)
+# Link Article - https://www.ossez.com/c/open-source/python/14
 
 import string
 from random import choice
