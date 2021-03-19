@@ -2,7 +2,7 @@
 
 # Python QR Code Generator
 # Author - HoneyMoose(huyuchengus@gmail.com)
-# Link Article - https://www.ossez.com/c/open-source/python/14
+# Link Article - https://www.ossez.com/t/python-qr/13396
 
 import qrcode.image.svg
 
