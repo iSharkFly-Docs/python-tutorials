@@ -2,7 +2,7 @@
 
 # Python Random String Password
 # Author - HoneyMoose(huyuchengus@gmail.com)
-# Link Article - https://www.ossez.com/t/python/13398
+# Link Article - https://www.ossez.com/t/python-pyautogui/13400
 
 import time
 
@@ -26,7 +26,21 @@ while True:
     time.sleep(3)
 
     pyautogui.click(x=100, y=200)
-    time.sleep(3)
+    time.sleep(10)
 
     pyautogui.click(x=200, y=400)
-    time.sleep(3)
+    time.sleep(10)
+
+    # 可以在 Windows 中打开 Paint，然后执行下面的语句
+    distance = 200
+    while distance > 0:
+        pyautogui.drag(distance, 0, duration=0.5)  # move right
+        distance -= 5
+        pyautogui.drag(0, distance, duration=0.5)  # move down
+        pyautogui.drag(-distance, 0, duration=0.5)  # move left
+        distance -= 5
+        pyautogui.drag(0, -distance, duration=0.5)  # move up
+    time.sleep(10)
+
+
+
