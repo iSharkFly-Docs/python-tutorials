@@ -5,3 +5,4 @@ setuptools~=54.0.0
 ruamel.yaml
 qrcode
 Pillow
+pyautogui
