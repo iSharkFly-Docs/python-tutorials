@@ -9,21 +9,21 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-smtp_server_address = input("Please Enter SMTP Server address with port:\n")
-smtp_server_user_name = input("Please Enter SMTP Server User Name:\n")
+smtp_server_address = input("请输入 SMTP 邮件服务器地址和端口：\n")
+smtp_server_user_name = input("请输入 SMTP 邮件服务器的登录用户名：\n")
 smtp_server_user_passwd = getpass.getpass()
 
-email_address_from = input("Email Address [FROM]:\n")
-email_address_to = input("Email Address [TO]:\n")
+email_address_from = input("发送的邮件地址 [FROM]:\n")
+email_address_to = input("接收的邮件地址 [TO]:\n")
 
-subject = input("What is your email subject?\n")
-body_text = input("What message did you want to email? (currently this is only one line)\n\n")
+subject = input("请输入你的邮件主题\n")
+body_text = input("请输入你希望发送的内容（所有内容将会显示为一行）)\n\n")
 
 body_html = """\
     <html>
     <head></head>
     <body>
-    <h1>Using Python Sending Test Email!</h1>
+    <h1>使用 Python 发送的电子邮件！</h1>
     <p>
     """
 
