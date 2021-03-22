@@ -6,3 +6,4 @@ ruamel.yaml
 qrcode
 Pillow
 pyautogui
+selenium
