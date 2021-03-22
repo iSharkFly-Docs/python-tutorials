@@ -5,6 +5,6 @@ setuptools~=54.0.0
 ruamel.yaml
 qrcode~=6.1
 Pillow
-pyautogui~=0.9.52
+pyautogui
 selenium
-requests~=2.25.1
+requests
