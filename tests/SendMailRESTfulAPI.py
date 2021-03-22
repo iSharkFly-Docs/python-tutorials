@@ -2,7 +2,7 @@
 
 # Python Email Sending Test
 # Author - HoneyMoose(huyuchengus@gmail.com)
-# Link Article - https://www.ossez.com/t/python/13398
+# Link Article - https://www.ossez.com/t/python-api/13402
 
 import requests
 
