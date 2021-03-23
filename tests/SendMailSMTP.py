@@ -42,9 +42,9 @@ def send_mail(to_addr, subject="Test email",
               email_user=smtp_server_user_name,
               email_passwd=smtp_server_user_passwd,
               smtpserver="smtp.mailgun.org:587"):
-    """A function to send email, in MIME multi-part (plain-text and HTML).
+    """发送邮件的方法，可以使用这个方法发送纯文本或者 HTML 的邮件。
 
-    For example: to send to myself:
+    例如，如果你希望发送一个邮件给你的自己，你可以使用：
     send_mail(to_addr, subject, body_text=body_text, body_html=body_html)
     """
 
