@@ -2,7 +2,7 @@
 
 # Python Send Email by SMTP
 # Author - HoneyMoose(huyuchengus@gmail.com)
-# Link Article - https://www.ossez.com/t/python/13398
+# Link Article - https://www.ossez.com/t/python-smtp/13403
 
 import getpass
 import smtplib
